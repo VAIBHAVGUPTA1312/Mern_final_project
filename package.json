@@ -1,8 +1,8 @@
 {
-  "name": "pet_adoption",
+  "name": "car_showroom",
   "version": "2.0.0",
   "type": "module",
-  "description": "Pets Adoption",
+  "description": "Car Showroom",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
@@ -13,7 +13,7 @@
     "data:destroy": "node backend/seeder -d",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "DevX",
+  "author": "Team 584",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
